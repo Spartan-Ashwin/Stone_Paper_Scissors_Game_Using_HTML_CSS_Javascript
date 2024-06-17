@@ -1,0 +1,42 @@
+.imagePoperty{
+
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.container{
+
+    display: flex;
+    justify-content: center;
+}
+
+img, button{
+    display: block;
+}
+
+
+button{
+    margin: auto;
+    width: 200px;
+    height: 60px;
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: beige;
+}
+
+button:hover{
+    
+    box-shadow: 5px 5px 10px greenyellow;
+}
+button:active{
+    background-color: bisque;
+
+}
+
+.result{
+    
+   
+    text-align: center;
+    margin: 30px;
+}
